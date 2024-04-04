@@ -1,0 +1,26 @@
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 1rem 2rem; /* row then col- root of letter m = 16 px*/
+
+}
+
+
+/* taek each moon inde set it as a grid item itself 
+maek the captuioen appear to the right of the moon
+*/
+/* extremely basic formatting */
+body {
+    font-family: "Libre Franklin", sans-serif;
+    line-height: 1.5;
+  }
+  /* make image flex with container */
+  img {
+    max-width: 100%;
+  }
+  /* remove default margin/padding */
+  figure {
+    margin: 0;
+    padding: 0;
+  }
